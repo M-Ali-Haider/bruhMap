@@ -1,0 +1,15 @@
+.formInput {
+  flex: 1 1 0%;
+  font-size: 15px;
+  height: 100%;
+  line-height: 1.5;
+  padding: 18px;
+  background-color: transparent;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+  &::placeholder {
+    color: black;
+  }
+}
